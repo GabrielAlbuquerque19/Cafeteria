@@ -7,6 +7,7 @@ import { ContatoPage } from '../contato/contato';
 import { LojasPage } from '../lojas/lojas';
 import { HomePage } from '../home/home';
 import { MensagemPage } from '../mensagem/mensagem';
+import { HorariosPage } from '../horarios/horarios';
 
 @Component({
   templateUrl: 'tabs.html'
@@ -19,7 +20,8 @@ export class TabsPage {
   tab4Root = CardapioPage;
   tab5Root = LojasPage;
   tab6Root = ContatoPage;
-  tab7Root = MensagemPage;
+  tab8Root = MensagemPage;
+  tab7Root = HorariosPage;
 
   constructor() {
 

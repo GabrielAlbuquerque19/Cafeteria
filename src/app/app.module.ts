@@ -14,6 +14,7 @@ import { CardapioPage } from '../pages/cardapio/cardapio';
 import { LojasPage } from '../pages/lojas/lojas';
 import { ContatoPage } from '../pages/contato/contato';
 import { MensagemPage } from '../pages/mensagem/mensagem';
+import { HorariosPage } from '../pages/horarios/horarios';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { MensagemPage } from '../pages/mensagem/mensagem';
     CardapioPage,
     LojasPage,
     ContatoPage,
+    HorariosPage,
     MensagemPage
 
   ],
@@ -42,7 +44,9 @@ import { MensagemPage } from '../pages/mensagem/mensagem';
     CardapioPage,
     LojasPage,
     ContatoPage,
+    HorariosPage,
     MensagemPage
+    
   ],
   providers: [
     StatusBar,
